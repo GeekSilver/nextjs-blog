@@ -21,11 +21,25 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <p>I'm fullstack software developer with interest in MERN (Mongo, Express, React, Nodejs)
+          PERN (Postgres, Express, React, Nodejs), JAMSTACK and Laravel.</p>
+        <p>I'm a tech enthusiast and like to keep myself updated about happenings in tech.</p>
+        <p>I'm also currently open to javascript job offers in any of stacks above.</p>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <a
+            href="ailto:erickioko995@gmail.com"
+            style={{
+              backgroundColor: '#c3f',
+              borderLeft: "10px solid yellow",
+              borderRight: "10px solid yellow",
+              borderTop: "10px solid orange",
+              borderBottom: "10px solid orange",
+              color: "#fff",
+              padding: "3px"
+            }}>
+            send me email
+          </a>
+        </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
